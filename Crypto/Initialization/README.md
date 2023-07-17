@@ -45,38 +45,51 @@ if __name__ == '__main__':
 
 It looks like this python code will encrypt the msg inside `messages.txt` using AES-CTR and then save the encrypted msg in `output.txt`
 
+Reusing key/nonce affects security of CTR mode and Stream ciphers in general. 
+Assume that you have two ciphertexts encrypted with the same key, E(A) and E(B).
+
+E(A) = key xor A
+E(B) = key xor B
+
+Now try XORing the two ciphertexts as follows:
+
+E(A) xor E(B) = key xor A XOR key xor B
+
+= A xor key xor key xor B // algebraic property of xor
+= A xor 0 xor B           // because key xor key yields 0
+= A xor B                 // XORing 0 with anything yields that thing
+
+Given that A and B are normal English letters, the guessing of A and B will be 
+trivial, as you lost the key space of the stream cipher. Now, you are just trying 
+26 letters.
+
+The worst case scenario applies when A and B have the same length. Efficiently, 
+you will break two ciphertexts at one shot.
+
 ## How to Solve?
-At first i tried to run the program and see the behaviour. Before i ran the program, i added `print (self.KEYS)`. And here was the result
-
-![test](images/test.png)
-
-As you can see the program encrypt the key is reused for all the encryption. And because of the nonce was reused, we use this notation
 
 ```
-flag = (ciphertext1 ⊕ ciphertext2) ⊕ known_plaintext
+#!/usr/bin/env python3
+
+from pwn import xor
+
+
+m1 = b'This is some public information that can be read out loud.'
+
+c1 = bytes.fromhex('76ca21043b5e471169ec20a55297165807ab5b30e588c9c54168b2136fc97d147892b5e39e9b1f1fd39e9f66e7dbbb9d8dffa31b597b53a648676a8d4081a20b')
+c3 = bytes.fromhex('6af60a0c6e5944432af77ea30682076509ae0873e785c79e026b8c1435c566463d8eadc8cecc0c459ecf8e75e7cdfbd88cedd861771932dd224762854889aa03')
+
+AxB = xor(c1, c3)
+
+flag = ''
+for i in range(len(m1)):
+    for j in range(32, 127):
+        maybe = AxB[i] ^ j
+        if maybe == m1[i]:
+            flag += chr(j)
+
+print(flag)
 ```
-
-And i used this [reference](https://github.com/Y-CTF/writeups/tree/main/CryptoCTF2021/Wolf) to solve this chall
-
-```python
-known_plaintext = 'This is some public information that can be read out loud.'
-encrypted_text = bytes.fromhex('76ca21043b5e471169ec20a55297165807ab5b30e588c9c54168b2136fc97d147892b5e39e9b1f1fd39e9f66e7dbbb9d8dffa31b597b53a648676a8d4081a20b')
-encrypted_flag = bytes.fromhex('6af60a0c6e5944432af77ea30682076509ae0873e785c79e026b8c1435c566463d8eadc8cecc0c459ecf8e75e7cdfbd88cedd861771932dd224762854889aa03')
-
-# Convert known_plaintext to bytes
-known_plaintext_bytes = known_plaintext.encode()
-
-# Perform XOR operations
-result = bytes(x ^ y ^ z for x, y, z in zip(known_plaintext_bytes, encrypted_text, encrypted_flag))
-
-# Print the result as a hexadecimal string
-result_hex = result.hex()
-print(result_hex)
-```
-
-After we got the result, decode the hex to obtain the flag
-
-![flag](images/flag.png)
 
 ```
 HTB{unpr0t3cted_bl0ckch41n_s3cur1ty_p4r4m3t3rs!!!}
