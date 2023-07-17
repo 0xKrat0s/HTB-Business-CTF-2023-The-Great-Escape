@@ -5,4 +5,4 @@
 We have been given a source code (You can download the source code and also we got a website to test. 
 Here is the preview of the website:
 ![preview](/Images/preview.png)
-<img src="Web/Lazy%Ballot/Images/preview.png" alt="lasagna">
+<img src="Images/preview.png" alt="lasagna">
