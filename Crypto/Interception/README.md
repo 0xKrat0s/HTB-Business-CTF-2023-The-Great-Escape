@@ -195,5 +195,4 @@ Finally, using CRT to get the key.
 ### Flag
 ```
 HTB{th3y_d3f1n1t3ly_d0nt_h4v3_a_sUp3r_c0mPut3r!}
-
 ```
