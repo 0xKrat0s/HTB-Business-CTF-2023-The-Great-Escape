@@ -47,17 +47,19 @@ It looks like this python code will encrypt the msg inside `messages.txt` using 
 
 Reusing key/nonce affects security of CTR mode and Stream ciphers in general. 
 Assume that you have two ciphertexts encrypted with the same key, E(A) and E(B).
-
+```
 E(A) = key xor A
 E(B) = key xor B
-
+```
 Now try XORing the two ciphertexts as follows:
 
+```
 E(A) xor E(B) = key xor A XOR key xor B
 
 = A xor key xor key xor B // algebraic property of xor
 = A xor 0 xor B           // because key xor key yields 0
 = A xor B                 // XORing 0 with anything yields that thing
+```
 
 Given that A and B are normal English letters, the guessing of A and B will be 
 trivial, as you lost the key space of the stream cipher. Now, you are just trying 
@@ -68,7 +70,7 @@ you will break two ciphertexts at one shot.
 
 ## How to Solve?
 
-```
+```python
 #!/usr/bin/env python3
 
 from pwn import xor
