@@ -1,12 +1,14 @@
 # Vanguard (Fullpwn Challenge)
-HTB Business CTF 2023
-Writeup by: @godylockz
+
 
 ## Challenge Description
 Category: Fullpwn
+
 Difficulty: Easy
+
 Points: 1300
-N/A
+
+
 
 ## Strategy
 The premise revolving around this challenge 
