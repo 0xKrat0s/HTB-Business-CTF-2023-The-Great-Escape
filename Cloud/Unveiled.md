@@ -9,7 +9,7 @@ Difficulty: Easy
 
 Points: 1000
 
-N/A
+
 
 ## Strategy
 The premise revolving around this challenge was to upload a PHP webshell to an openly-accessible AWS S3 Bucket and obtain RCE for the flag.
