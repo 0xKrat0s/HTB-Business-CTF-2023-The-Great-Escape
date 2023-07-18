@@ -1,11 +1,14 @@
 # Unveiled (Cloud Challenge)
-HTB Business CTF 2023
+
 
 
 ## Challenge Description
 Category: Cloud
+
 Difficulty: Easy
+
 Points: 1000
+
 N/A
 
 ## Strategy
