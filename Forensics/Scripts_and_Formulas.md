@@ -83,6 +83,6 @@ If we were to continue reading the file we just opened for Question 6, a bit fur
 And we finally get our flag:  
 ![image](https://github.com/LazyTitan33/CTF-Writeups/assets/80063008/12e0afde-7e91-411a-8d42-5183d72cc130)
 
-HTB{GSH33ts_4nd_str4ng3_f0rmula3_byp4ss1ng_f1r3w4lls!!}
+```HTB{GSH33ts_4nd_str4ng3_f0rmula3_byp4ss1ng_f1r3w4lls!!}```
 
 
