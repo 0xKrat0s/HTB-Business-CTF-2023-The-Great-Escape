@@ -32,4 +32,4 @@ echo X3QwX200cnN9Cg==|base64 -d
 ```
 ![image](https://github.com/LazyTitan33/CTF-Writeups/assets/80063008/49cb28c5-b839-45d8-8302-baf814cc55bf)
 
-```HTB{m1n1ng_th31r_w4y_t0_m4rs}```
+Flag :```HTB{m1n1ng_th31r_w4y_t0_m4rs}```
