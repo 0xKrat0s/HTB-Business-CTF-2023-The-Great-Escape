@@ -1,11 +1,14 @@
 # Funds Secured (Blockchain Challenge)
-HTB Business CTF 2023
-Writeup by: @godylockz
+
 
 ## Challenge Description
+
 Category: Blockchain
+
 Difficulty: Easy
+
 Points: 1000
+
 In Arodor, a state-of-the-art crowdfunding program fueled groundbreaking research. Powered by a smart contract, the program aimed to raise funds. Overseeing this campaign was a council board, responsible for finalizing the program through a multi-signature wallet scheme. Your goal is to exploit the contract and steal the funds, posing a threat to Arodor's noble scientific mission..
 
 ## Challenge Files
