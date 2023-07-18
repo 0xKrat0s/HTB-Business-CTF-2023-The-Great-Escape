@@ -8,7 +8,7 @@ Difficulty: Medium
 
 Points: 1000
 
-N/A
+
 
 ## Strategy
 The premise revolving around this challenge was to recover AWS secrets from git repository accessible on the website, use those credentials to assume another AWS role.
