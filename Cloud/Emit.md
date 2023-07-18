@@ -3,8 +3,11 @@
 
 ## Challenge Description
 Category: Cloud
+
 Difficulty: Medium
+
 Points: 1000
+
 N/A
 
 ## Strategy
