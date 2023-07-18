@@ -1,12 +1,13 @@
 # Langmon (Fullpwn Challenge)
-HTB Business CTF 2023
-Writeup by: @godylockz
 
 ## Challenge Description
 Category: Fullpwn
+
 Difficulty: Very Easy
+
 Points: 950
-N/A
+
+
 
 ## Strategy
 The premise revolving around this challenge is registering and logging in as a newly created WordPress Contributor-level user, exploting a vulnerable WordPress plugin called PHP Everywhere (CVE-2022-24665) to achieve arbitrary code execution as the `www-data `user, privilege escalating to the `developer` user and exploiting a sudo permission that uses a vulnerable Python package called langchain prompts (CVE-2023-34541) to obtain root-level access!
