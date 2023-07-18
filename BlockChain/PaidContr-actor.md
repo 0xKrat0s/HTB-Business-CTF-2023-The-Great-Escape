@@ -1,11 +1,14 @@
 # Paid Contr-actor (Blockchain Challenge)
-HTB Business CTF 2023
-Writeup by: @godylockz
+
 
 ## Challenge Description
+
 Category: Blockchain
+
 Difficulty: Very Easy
+
 Points: 650
+
 After a lifetime of preparation, the moment has arrived to enlist in the esteemed military of the United Nations of Zenium as an expert in blockchain security. Before embarking on your duties, there is a small matter of paperwork that requires your attention.
 
 ## Challenge Files
