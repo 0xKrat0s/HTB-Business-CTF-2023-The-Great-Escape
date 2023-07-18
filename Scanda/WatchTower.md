@@ -91,4 +91,4 @@ finally:
 We can modify the script to connect to the docker instance and read all the registers and get the flag:
 ![image](https://github.com/LazyTitan33/CTF-Writeups/assets/80063008/4c18e4b0-c24f-4c7a-bc58-9d59bb9716f4)
 
-```HTB{239157325_m19h7_h1dd3_53c2375!@$2609^}```
+Flag :```HTB{239157325_m19h7_h1dd3_53c2375!@$2609^}```
