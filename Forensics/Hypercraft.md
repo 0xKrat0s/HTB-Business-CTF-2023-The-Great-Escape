@@ -54,7 +54,7 @@ I stared at this code for a while trying to understand it. A closer look shows t
 Realising this I took each byte array, unhexed it and XORed it with the specified Decimal using Cyberchef until I found the one hiding the flag:  
 ![image](https://github.com/LazyTitan33/CTF-Writeups/assets/80063008/828ab456-a338-4abd-95b7-4525ea3760e7)
 
-HTB{l0ts_of_l4Y3rs_iN_th4t_1}
+```HTB{l0ts_of_l4Y3rs_iN_th4t_1}```
 
 
 
