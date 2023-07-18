@@ -1,6 +1,5 @@
 # Emit (Cloud Challenge)
-HTB Business CTF 2023
-Writeup by: @godylockz
+
 
 ## Challenge Description
 Category: Cloud
