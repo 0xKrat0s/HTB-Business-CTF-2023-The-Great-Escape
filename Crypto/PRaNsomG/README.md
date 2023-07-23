@@ -1,4 +1,7 @@
 # PRaNsomG
+
+Author : Muhammed Ashique
+
 >Following the mole's dismissal, the nation suffered from an onslaught of relentless phishing campaigns. With little time to spare during this chaotic and tense period, warnings and safeguards for staff members were inadequate. A few individuals fell victim to the phishing attempts, leading to the encryption of sensitive documents by ransomware. You were assigned the mission of reverse engineering the ransomware and ultimately recovering the classified files, restoring order and safeguarding the nation's sensitive information.
 
 ## About the Challenge
