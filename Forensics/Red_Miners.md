@@ -1,3 +1,7 @@
+## Red-Miners 
+
+Author : 0xkratos
+
 ### Challenge description
 
 ![image](https://github.com/LazyTitan33/CTF-Writeups/assets/80063008/5f25ec84-fc05-4775-a96e-29f27f1d586f)
