@@ -1,4 +1,7 @@
 # Vitrium Stash
+ 
+ Author : 0xkratos
+ 
 >As the war comes to an end, your contributions in safeguarding your nation from cyberattacks and uncovering enemy plans have been significant. However, your mission is not yet complete. While enumerating the enemy government's infrastructure, you discover an old signing panel rumored to contain crucial information regarding valuable resources' locations. Your final objective is to successfully bypass this signing panel and expose the whereabouts of these assets.
 
 ## About the Challenge
