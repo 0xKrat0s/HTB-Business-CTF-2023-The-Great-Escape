@@ -1,11 +1,12 @@
 # Langmon (Fullpwn Challenge)
 
+Author : Muhammed Ashique
+
 ## Challenge Description
 Category: Fullpwn
-
 Difficulty: Very Easy
 
-Points: 950
+
 
 
 
