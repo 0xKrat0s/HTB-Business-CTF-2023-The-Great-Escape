@@ -1,3 +1,7 @@
+## Scripts_and_Formulas
+
+Author : Muhammed Ashique
+
 ### Challenge description
 
 ![image](https://github.com/LazyTitan33/CTF-Writeups/assets/80063008/5ef17f55-73c9-44e4-a152-5aa51a1fc7d2)
