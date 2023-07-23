@@ -1,5 +1,6 @@
 # Unveiled (Cloud Challenge)
 
+Author : 0xkratos
 
 
 ## Challenge Description
@@ -7,7 +8,7 @@ Category: Cloud
 
 Difficulty: Easy
 
-Points: 1000
+
 
 
 
