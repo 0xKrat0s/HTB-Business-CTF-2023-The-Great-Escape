@@ -1,4 +1,6 @@
+
 # I'm gRoot
+Author : Muhammed Ashique
 >After decrypting the communication, you uncover the identity of the mole as the senior blockchain developer. Shockingly, the developer had embedded a backdoor in the government's decentralized blockchain network, originally designed to prevent corruption. You report this critical finding to the government council and are assigned with the task of detecting and fixing the backdoor, ensuring the integrity and security of the network.
 
 ## About the Challenge
