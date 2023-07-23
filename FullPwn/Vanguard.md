@@ -1,12 +1,12 @@
 # Vanguard (Fullpwn Challenge)
 
+Author : 0xkratos
 
 ## Challenge Description
 Category: Fullpwn
 
 Difficulty: Easy
 
-Points: 1300
 
 
 
