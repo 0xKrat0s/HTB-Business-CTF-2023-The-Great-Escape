@@ -1,12 +1,13 @@
 # Emit (Cloud Challenge)
 
+Author: Muhammed Ashique
 
 ## Challenge Description
 Category: Cloud
 
 Difficulty: Medium
 
-Points: 1000
+
 
 
 
