@@ -1,4 +1,4 @@
-## Scripts_and_Formulas
+## Scripts-and-Formulas
 
 Author : Muhammed Ashique
 
