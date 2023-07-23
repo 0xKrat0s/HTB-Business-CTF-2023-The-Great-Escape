@@ -1,4 +1,4 @@
-###HyperCraft
+## HyperCraft
 Author : Muhammed Ashique
 
 ### Challenge description
